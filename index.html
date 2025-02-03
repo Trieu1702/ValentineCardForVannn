@@ -97,6 +97,19 @@
             display: flex;
             border-radius: 15px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            border: 2px solid transparent;
+            animation: border-glow 2s infinite alternate;
+        }
+
+        @keyframes border-glow {
+            from {
+            border-color: #ffffff;
+            box-shadow: 0 0 10px #ffffff;
+            }
+            to {
+            border-color: #1de4fa;
+            box-shadow: 0 0 20px #1de4fa;
+            }
         }
 
         .front {
@@ -233,12 +246,12 @@
                 <div class="left-side"></div>
                 <div class="right-side">
                     <div class="message">
-                        <h2>Gửi bạn Vân cute  .</h2>
+                        <h2>Gửi bạn Vân cute .</h2>
                         <p>Chúc Vân Valentine (sớm) năm nay dui dẻ, hạnh phúc! 
                             Mong rằng bạn sẽ luôn luôn tích cực, iu đời và chơi bóng dới tui như hiện tại, 
                             xong cười nhiều hơn nữa bạn nhóeee, tui thích ngắm bạn cười lắm áaaa.
                             Mến bạn nhìu lắm! (bạn hong mến tui nhiều hơn tui mến bạn âuuu😼)</p>
-                        <p style="color: #ff4081; margin-top: 20px;">💕 Trịu (và ChatGPT) 💕</p>
+                        <p style="color: #ff4081; margin-top: 20px;">💕 Trịu 💕 (và ChatGPT) </p>
                     </div>
                 </div>
             </div>
